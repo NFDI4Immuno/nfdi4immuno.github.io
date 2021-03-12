@@ -1,7 +1,5 @@
 # nfdi4immuno.github.io
 
-Website content
-
 Building and viewing the website:
 
 Install jekyll (https://jekyllrb.com/docs/installation/)
