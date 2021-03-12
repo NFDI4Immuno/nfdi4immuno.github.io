@@ -12,27 +12,21 @@ layout: page
 <!-- Print spokesperson -->
 {% if sp.size > 0 %}
 <h3>Spokesperson</h3>
-<div class="grid-x">
-  {% for person in sp %}
-      <div class="cell" style="margin-bottom: 20px">
-        <img src="{{ person.image }}" style="float: left; margin-right:10px; max-width: 150px;" />
-        <p>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</p>
-      </div>
-  {% endfor %}
-</div>
+{% for person in csp %}
+<ul>
+  <li>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</li>
+</ul>
+{% endfor %}
 {% endif %}
 
 <!-- Print co-spokesperson -->
 {% if csp.size > 0 %}
-<h3>Co-Spokesperson</h3>
-<div class="grid-x">
+  <h3>Co-Spokesperson</h3>
   {% for person in csp %}
-      <div class="cell" style="margin-bottom: 20px">
-        <img src="{{ person.image }}" style="float: left; margin-right:10px; max-width: 150px;" />
-        <p>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</p>
-      </div>
+    <ul>
+      <li>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</li>
+    </ul>
   {% endfor %}
-</div>
 {% endif %}
 
 <h3>Participants</h3>
