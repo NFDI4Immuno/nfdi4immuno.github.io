@@ -1,0 +1,23 @@
+{% include head.html %}
+
+{{ content }}
+
+{% assign firstdate = "0001-01-01" | date: '%s' %}
+{% assign currentdate = site.time | date: '%s' %}
+{% assign news_directory = site.pages | where_exp: "item" , "item.path contains 'news/'" | sort: "date" | reverse %}
+
+<div class="grid-x">
+
+  {% for page in news_directory %}
+  {% assign newsdate = page.date | date: '%s' %}
+
+  <div class="cell" style="margin-bottom: 5px; margin-top: 1px;">
+    <h3>{{ page.date | date: "%d %b %Y"}} | {{ page.title }}</h3> 
+    {% if page.image %}<a href="{{ page.image }}"><img src="{{ page.image }}" width="{{ page.imagewidth }}%" display="block" style="padding: 15px;"/></a>{% endif %}
+    {{ page.content | markdownify }}
+    <hr/>
+  </div>
+  {% endfor %}
+</div>
+
+{% include tail.html %}

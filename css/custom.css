@@ -1,0 +1,130 @@
+.partnerlogo {
+    float: none;
+    max-height: 55px;
+    margin-top: 10px;
+}
+
+#logo {
+    float: none;
+    max-height: 60px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+#veryouterbox {
+    min-height: 100vh;
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    z-index: 1000;
+    max-height: 210px;
+}
+
+.grid-x {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.navigation {
+    border-bottom: 0px solid #aaa;
+    border-top: 1px solid #aaa;
+    margin-bottom: 5ex;
+}
+
+@font-face{
+    font-family: "cmu";
+    src: url('/fonts/cmu/cmu.sans-serif-medium.ttf'),
+    url('/fonts/cmu/cmu.sans-serif-medium.ttf'); /* IE */
+}
+
+@font-face{
+    font-family: "Fira Sans";
+    src: url('/fonts/fira/FiraSans-Regular.ttf'),
+    url('/fonts/fira/FiraSans-Regular.ttf'); /* IE */
+}
+
+body {
+    font-family: "Fira Sans", cmu, sans-serif;
+/*    padding: 10px;*/
+    background-color: #fafafa;
+}
+
+h1 {
+    font-size: 26pt;
+    margin-bottom: 2ex;
+}
+
+h1.YEAR {
+    margin-top: 3ex;
+    margin-bottom: 0;
+    background-color: #fafafa;
+    color: #222;
+    padding-left: 1.5ex;
+    margin-left: -1.5ex;
+}
+
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.bibtexentry {
+    margin-bottom: 1.5em;
+}
+
+p.abstracttext {
+    background-color: #fbfbfb;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1em 1.5em 1em 1.5em;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-width: 2px;
+}
+
+/***************
+HEADER STYLING
+***************/
+.header {
+    background-color: seagreen;
+    /* background-image: url("../assets/img/banner.png"); */
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 0;
+    height: 3em; }
+    .header .container {
+      padding: 0;
+      max-width: 100%; }
+    .header h1 {
+      margin: 0;
+      float: left;
+      padding-left: 2rem;
+      font-size: 1em;
+      line-height: 3em;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      text-transform: uppercase; }
+      .header h1 a {
+        color: white;
+        text-decoration: none; }
