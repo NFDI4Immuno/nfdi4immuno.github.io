@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 
 {{ content }}
@@ -39,3 +39,14 @@ layout: page
   {% endfor %}
   </ul>
 {% endif %}
+
+{% comment %}
+  <div class="grid-x">
+  {% for person in sp %}
+  <div class="cell" style="margin-bottom: 20px">
+    <img src="{{ person.image }}" style="float: left; margin-right:10px; max-width: 150px;" />
+    {{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}<br/>
+  </div>  
+  {% endfor %}
+</div>
+{% endcomment %}
