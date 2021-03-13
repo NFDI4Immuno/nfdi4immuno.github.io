@@ -1,0 +1,17 @@
+<div class="cell navigation" style="margin-bottom: 3ex; margin-top: 2ex;">
+    <ul class="dropdown menu" data-dropdown-menu>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% comment %}
+<nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </nav>
+{% endcomment %}
