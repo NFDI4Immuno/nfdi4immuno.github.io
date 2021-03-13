@@ -8,6 +8,7 @@ layout: page
 
 {% assign sp = people | where: "role" , "Spokesperson" | sort: "person_info.surname" %}
 {% assign csp = people | where: "role" , "Co-Spokesperson" | sort: "person_info.surname" %}
+{% assign p = people | where: "role" , "Participant" | sort: "person_info.surname" %}
 
 <!-- Print spokesperson -->
 {% if sp.size > 0 %}
@@ -29,12 +30,12 @@ layout: page
   </ul>
 {% endif %}
 
-<h3>Participants</h3>
-
-<ul>
-  <li>Prof. Barbara M. Bröker, Abteilung für Immunologie, UMG, Greifswald</li>
-  <li>Dr. Felix Meissner, Experimentelle Systemimmunologie, MPIBC, München</li>
-  <li>Dr. Katherina Siewert, Studienzentrum Allergien, BfR, Berlin</li>
-  <li>Prof. Dietmar Zehn, Lehrstuhl für Tierphysiologie und Immunologie, Wissenschaftszentrum Weihenstephan, TUM, Freising</li>
-</ul>
-
+<!-- Print participants -->
+{% if p.size > 0 %}
+  <h3>Participants</h3>
+  <ul>
+  {% for person in p %}
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
