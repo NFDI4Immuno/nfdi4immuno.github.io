@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Work programme
 permalink: /work/
 ---

@@ -1,10 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
+title: NFDI4Immuno
 ---
-# NFDI4Immuno
 
 NFDI4Immuno is an initiative aiming to build an open and FAIR infrastructure for research data management focused on immunology as part of German NFDI ([National research Data Infrastructure](https://www.nfdi.de/)).
 
