@@ -28,12 +28,21 @@ url: "https://www.nfdi4immuno.de" # the base hostname & protocol for your site, 
 twitter_username: #jekyllrb
 github_username:  #jekyll
 
+# Header Option
+header: large
+
 # Build settings
 theme: minima
 # plugins:
 #   - jekyll-feed
 
 defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      image: "/assets/img/banner.png"
   -
     scope:
       path: "consortium" # an empty string here means all files in the project
