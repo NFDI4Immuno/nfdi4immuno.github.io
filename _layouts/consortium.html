@@ -6,26 +6,26 @@ layout: page
 
 {% assign people = site.pages | where_exp: "item" , "item.path contains 'consortium/'"%}
 
-{% assign sp = people | where: "role" , "Spokesperson" | sort: "member_name.last" %}
-{% assign csp = people | where: "role" , "Co-Spokesperson" | sort: "member_name.last" %}
+{% assign sp = people | where: "role" , "Spokesperson" | sort: "person_info.surname" %}
+{% assign csp = people | where: "role" , "Co-Spokesperson" | sort: "person_info.surname" %}
 
 <!-- Print spokesperson -->
 {% if sp.size > 0 %}
-<h3>Spokesperson</h3>
-{% for person in csp %}
-<ul>
-  <li>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</li>
-</ul>
-{% endfor %}
+  <h3>Spokesperson</h3>
+  {% for person in sp %}
+    <ul>
+      <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+    </ul>
+  {% endfor %}
 {% endif %}
 
 <!-- Print co-spokesperson -->
 {% if csp.size > 0 %}
   <h3>Co-Spokesperson</h3>
   {% for person in csp %}
-    <ul>
-      <li>{{ person.academic_rank }} {{ person.member_name.first }} {{ person.member_name.last }}, {{ person.institution }}</li>
-    </ul>
+  <ul>
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+  </ul>
   {% endfor %}
 {% endif %}
 
