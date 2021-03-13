@@ -12,21 +12,21 @@ layout: page
 <!-- Print spokesperson -->
 {% if sp.size > 0 %}
   <h3>Spokesperson</h3>
+  <ul>
   {% for person in sp %}
-    <ul>
-      <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
-    </ul>
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
   {% endfor %}
+</ul>
 {% endif %}
 
 <!-- Print co-spokesperson -->
 {% if csp.size > 0 %}
   <h3>Co-Spokesperson</h3>
-  {% for person in csp %}
   <ul>
+  {% for person in csp %}
     <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
-  </ul>
   {% endfor %}
+  </ul>
 {% endif %}
 
 <h3>Participants</h3>
