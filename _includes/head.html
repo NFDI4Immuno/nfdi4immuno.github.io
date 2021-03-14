@@ -1,38 +1,39 @@
-<!doctype html>
-<html class="no-js" lang="en-US">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title}} - {{ site.title }}</title>
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.svg" | prepend: site.baseurl }}" />
-  <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
-  <link rel="stylesheet" href="/css/foundation.min.css" />
-  <link rel="stylesheet" href="/css/custom.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title}} - {{ site.title }}</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ " /assets/img/favicon.svg " | prepend: site.baseurl }}" />
+    <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
+    <link rel="stylesheet" href="/css/foundation.min.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
 </head>
 
 
 <body>
-  {% comment %}
-  <div class="header {% if site.header == "large" %}header--large{% endif %}"
-  {% if page.image %}style="background-image: url({{ page.image }})"
-{% endif %}>
+    {% comment %}
+    <div class="header {% if site.header == " large " %}header--large{% endif %}" {% if page.image %}style="background-image: url({{ page.image }})" {% endif %}>
     </div>
-{% endcomment %}
-<div id="veryouterbox">
-  <div class="grid-x">
-    <div class="cell large-4 medium-3" style="text-align:left;">
-      <img src="/assets/img/logo.png" id="logo" />
+    {% endcomment %}
+    <div class="header {% if site.header == " large " %}header--large{% endif %}" {% if page.image %}style="background-color: #004da2ff" {% endif %}></div>
+    <div id="veryouterbox">
+        <div class="grid-x">
+            <div style="align: center;">
+                <img src="/assets/img/banner.png" , style="max-width: 50vw;">
+                <br>
+            </div>
 
-    </div>
-    <div class="cell large-4 medium-6" style="font-size:24pt; text-align:center">
-      NFDI4Immuno
-    </div>
-    {% include navigation.html %}
+            <!-- <div class="cell large-4 medium-3" style="text-align:left;">
+                <img src="/assets/img/logo.png" id="logo" />
 
-    <div class="cell large-12">
-    <!--the cell div is closed in tail -->
+            </div> -->
+            <div class="cell large-4 medium-6" style="font-size:24pt; text-align:center">
+                <!-- NFDI4Immuno -->
+            </div>
+            {% include navigation.html %}
 
-  <!--the grid-x div is closed in tail -->
-<!--the veryouterbox div is closed in tail -->
+            <div class="cell large-12">
+                <!--the cell div is closed in tail -->
+
+                <!--the grid-x div is closed in tail -->
+                <!--the veryouterbox div is closed in tail -->
