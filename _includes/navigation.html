@@ -1,0 +1,8 @@
+<nav class="nav-collapse">
+    <ul class="noList">
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+        {{ item.name }}
+      </a></li> {% endfor %}
+    </ul>
+</nav>
