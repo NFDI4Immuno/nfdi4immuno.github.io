@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% assign people = site.pages | where_exp: "item" , "item.path contains 'consortium/'"%}
+{% assign people = site.pages | where_exp: "item" , "item.path contains 'consortium-members/'"%}
 
 {% assign sp = people | where: "role" , "Spokesperson" | sort: "person_info.surname" %}
 {% assign csp = people | where: "role" , "Co-Spokesperson" | sort: "person_info.surname" %}
