@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign people = site.pages | where_exp: "item" , "item.path contains 'consortium-members/'"%}
+
+{% assign sp = people | where: "role" , "Spokesperson" | sort: "person_info.surname" %}
+{% assign csp = people | where: "role" , "Co-Spokesperson" | sort: "person_info.surname" %}
+{% assign p = people | where: "role" , "Participant" | sort: "person_info.surname" %}
+
+<!-- Print spokesperson -->
+{% if sp.size > 0 %}
+  <h3>Spokesperson</h3>
+  <ul>
+  {% for person in sp %}
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<!-- Print co-spokesperson -->
+{% if csp.size > 0 %}
+  <h3>Co-Spokesperson</h3>
+  <ul>
+  {% for person in csp %}
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+<!-- Print participants -->
+{% if p.size > 0 %}
+  <h3>Participants</h3>
+  <ul>
+  {% for person in p %}
+    <li>{{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}</li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% comment %}
+  <div class="grid-x">
+  {% for person in sp %}
+  <div class="cell" style="margin-bottom: 20px">
+    <img src="{{ person.image }}" style="float: left; margin-right:10px; max-width: 150px;" />
+    {{ person.person_info.academic_rank }} {{ person.person_info.first_name }} {{ person.person_info.surname }}, {{ person.institution }}<br/>
+  </div>  
+  {% endfor %}
+</div>
+{% endcomment %}

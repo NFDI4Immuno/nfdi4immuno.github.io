@@ -1,3 +1,4 @@
+# cSpell:ignore plugins jekyllrb email
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -18,21 +19,55 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: NFDI4Immuno
+email: #your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  NFDI4Immuno aims to build an open and FAIR infrastructure for research data management. Our focus is on immunology, in particular imaging, cytometry and sequence data describing the adaptive immune receptor repertoire (AIRR-Seq).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.nfdi4immuno.de" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: #jekyllrb
+github_username:  #jekyll
+
+# Header Option
+header: large
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
+
+navigation:
+  - 
+    name: Home
+    link: /
+  -
+    name: Consortium
+    link: /consortium/
+  -
+    name: Work programme
+    link: /work/
+  -
+    name: News
+    link: /news/
+  -
+    name: Documents
+    link: /documents/
+  -
+    name: Member area
+    link: /members-only/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      image: "/assets/img/banner.png"
+  -
+    scope:
+      path: "consortium" # an empty string here means all files in the project
+    values:
+      image: "/assets/img/portrait_placeholder.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

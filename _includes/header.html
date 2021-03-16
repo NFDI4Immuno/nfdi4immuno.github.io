@@ -1,8 +1,15 @@
 <div class="header {% if site.header == " large " %}header--large{% endif %}">
     <div class="container">
         <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        {%- include navigation.html -%}
-    </div>
+        <nav class="nav-collapse">
+            <ul class="noList">
+                {% for item in site.data.navigation %}
+                <li><a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+                  {{ item.name }}
+                </a> </li>{% endfor %}
 
+            </ul>
+        </nav>
+    </div>
 </div>
 <!-- end .header -->
