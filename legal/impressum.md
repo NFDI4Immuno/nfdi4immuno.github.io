@@ -4,14 +4,14 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-Dr. Christian Busse
-Im Neuenheimer Feld 280
+Dr. Christian Busse\\
+Im Neuenheimer Feld 280\\
 69120 Heidelberg
 
 ## Kontakt
 
-Telefon: +49 30 6293 2331
-Telefax: +49 30 6293 2335
+Telefon: +49 30 6293 2331\\
+Telefax: +49 30 6293 2335\\
 E-Mail: webmaster@nfdi4immuno.de
 
 ### Haftung für Inhalte
