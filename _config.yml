@@ -54,7 +54,8 @@ navigation:
     link: /documents/
   -
     name: Member area
-    link: /members-only/
+    link: https://hub.dkfz.de/f/2435884
+#    #/members-only/
 
 defaults:
   -
