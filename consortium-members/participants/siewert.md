@@ -4,5 +4,5 @@ person_info:
   first_name: "Katherina"
   surname: "Siewert"
   academic_rank: "Dr."
-institution: "Studienzentrum Allergien, BfR, Berlin"
+institution: "Sudienzentrum Dermatotoxikologie, BfR, Berlin"
 ---
