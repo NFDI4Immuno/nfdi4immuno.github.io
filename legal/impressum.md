@@ -12,7 +12,6 @@ Gubener Str. 25\\
 ## Kontakt
 
 Telefon: +49 30 6293 2331\\
-Telefax: +49 30 6293 2335\\
 E-Mail: webmaster@nfdi4immuno.de
 
 ### Haftung für Inhalte

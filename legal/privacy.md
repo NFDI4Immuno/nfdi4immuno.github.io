@@ -44,12 +44,13 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Dr. Christian Busse
-Im Neuenheimer Feld 280
-69120 Heidelberg
+NFDI4Immuno\\
+c/o Dr. Christian Busse\\
+Gubener Str. 25\\
+10243 Berlin
 
-Telefon: +49 30 6293 2331
-E-Mail: webmaster@nfdi4immuno.de
+Telefon: +49 30 6293 2331\\
+E-Mail: gdpr@nfdi4immuno.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 
