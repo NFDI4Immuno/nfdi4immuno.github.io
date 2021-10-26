@@ -4,9 +4,10 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-Dr. Christian Busse\\
-Im Neuenheimer Feld 280\\
-69120 Heidelberg
+NFDI4Immuno\\
+c/o Dr. Christian Busse\\
+Gubener Str. 25\\
+10243 Berlin
 
 ## Kontakt
 

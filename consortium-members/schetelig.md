@@ -1,8 +1,8 @@
 ---
 role: "Co-Spokesperson"
 person_info: 
-  first_name: "Alexander"
-  surname: "Schmidt"
-  academic_rank: "Dr. Dr."
-institution: "DKMS, Tübingen"
+  first_name: "Johannes"
+  surname: "Schetelig"
+  academic_rank: "Prof. Dr."
+institution: "DKMS Clinical Trials Unit, Dresden"
 ---

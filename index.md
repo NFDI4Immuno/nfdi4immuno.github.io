@@ -13,7 +13,6 @@ Our vision is a network of federated repositories for all data describing the st
 ## Interactions with other consortia
  <!-- cspell: disable -->
 - [NFDI4Microbiota](https://nfdi4microbiota.de/)
-- [NFDI4Agri](https://www.nfdi4agri.de/)
 - [InnoMatSafety](https://nfdi4nanosafety.de/)
 - [NFDI4BIOIMAGE](https://nfdi4bioimage.de/)
 - [GHGA](https://ghga.dkfz.de/)
