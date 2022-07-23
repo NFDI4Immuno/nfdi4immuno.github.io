@@ -4,14 +4,23 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-NFDI4Immuno\\
-c/o Dr. Christian Busse\\
-Gubener Str. 25\\
-10243 Berlin
+Deutsches Krebsforschungszentrum\\
+Im Neuenheimer Feld 280\\
+69120 Heidelberg\\
+Telefon: +49 6221 42 0\\
+Telefax: +49 6221 42 2995\\
+
+UID-Nummer: DE 143293537
+
+Vertretungsberechtigten Personen:
+
++ Vorstandsvorsitzender und Wissenschaftlicher Vorstand: Prof. Dr. Michael Baumann
++ Kaufmännischer Vorstand: Ursula Weyrich
 
 ## Kontakt
 
-Telefon: +49 30 6293 2331\\
+Telefon: +49 6221 42 0\\
+Telefax: +49 6221 42 2995\\
 E-Mail: webmaster@nfdi4immuno.de
 
 ### Haftung für Inhalte
