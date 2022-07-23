@@ -46,9 +46,9 @@ navigation:
   -
     name: Work programme
     link: /work/
-  -
-    name: Survey
-    link: https://survey.nfdi4immuno.de/851183
+  # -
+  #   name: Survey
+  #   link: https://survey.nfdi4immuno.de/851183
   -
     name: News
     link: /news/
