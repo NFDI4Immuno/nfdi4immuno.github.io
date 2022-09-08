@@ -12,15 +12,18 @@ Telefax: +49 6221 42 2995\\
 
 UID-Nummer: DE 143293537
 
-Vertretungsberechtigten Personen:
+**Vertretungsberechtigten Personen:**
 
 + Vorstandsvorsitzender und Wissenschaftlicher Vorstand: Prof. Dr. Michael Baumann
 + Kaufmännischer Vorstand: Ursula Weyrich
 
+**Redaktionell Verantwortlich**
+
+Dr. Christian Busse (Anschrift wie oben)
+
 ## Kontakt
 
-Telefon: +49 6221 42 0\\
-Telefax: +49 6221 42 2995\\
+Telefon: +49 30 6293 2331\\
 E-Mail: webmaster@nfdi4immuno.de
 
 ### Haftung für Inhalte
