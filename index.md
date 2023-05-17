@@ -4,17 +4,16 @@
 title: NFDI4Immuno
 ---
 
-NFDI4Immuno is an initiative aiming to build an open infrastructure for FAIR research data management (RDM) focused on immunology as part of German National Research Data Infrastructure ([Nationale Forschungsdateninfrastruktur (NFDI)](https://www.nfdi.de/)).
+NFDI4Immuno is a consortium of the National Research Data Infrastructure ([Nationale Forschungsdateninfrastruktur (NFDI)](https://www.nfdi.de/)), which was approved as part of the 2021 application round and started in March 2023.
 
-Our vision is a network of federated repositories for all data describing the state of the immune system together with tools and services that will facilitate integrated data analyses across these repositories. Initially we focus on cytometry and adaptive immune receptor repertoire (AIRR) sequencing data.
+We aim to build an open infrastructure for FAIR research data management (RDM) for and with the German immunological community. Our vision is a network of federated repositories for all data describing the state of the immune system together with tools and services that will facilitate integrated data analyses across these repositories.
 
-![Consortium members location](/assets/img/germany_map_applicants.png){:class="img-responsive"}
+![Consortium members location](/assets/img/germany_map_partners.png){:class="img-responsive"}
 
 ## Interactions with other consortia
  <!-- cspell: disable -->
 - [NFDI4Microbiota](https://nfdi4microbiota.de/)
-- [InnoMatSafety](https://nfdi4nanosafety.de/)
 - [NFDI4BIOIMAGE](https://nfdi4bioimage.de/)
-- [GHGA](https://ghga.dkfz.de/)
+- [GHGA](https://www.ghga.de/)
 - [NFDI4Health](https://www.nfdi4health.de/)
 <!-- cspell: enable -->
