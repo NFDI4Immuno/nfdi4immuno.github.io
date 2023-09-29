@@ -17,3 +17,5 @@ We aim to build an open infrastructure for FAIR research data management (RDM) f
 - [GHGA](https://www.ghga.de/)
 - [NFDI4Health](https://www.nfdi4health.de/)
 <!-- cspell: enable -->
+
+{% include mastodon_verification.html %}
