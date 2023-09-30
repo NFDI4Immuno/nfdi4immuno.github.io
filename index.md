@@ -18,4 +18,4 @@ We aim to build an open infrastructure for FAIR research data management (RDM) f
 - [NFDI4Health](https://www.nfdi4health.de/)
 <!-- cspell: enable -->
 
-{% include mastodon_verification.html %}
+# {% include mastodon_verification.html %}
