@@ -1,6 +1,6 @@
 ---
-title: "Member area"
-permalink: /members-only/
+title: "Nextcloud"
+permalink: /nextcloud/
 ---
 
-Go to: [https://hub.dkfz.de](https://hub.dkfz.de/f/2435884)
+Go to: [https://nextcloud.nfdi4immuno.de](https://nextcloud.nfdi4immuno.de/)

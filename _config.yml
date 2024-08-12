@@ -22,19 +22,20 @@
 title: NFDI4Immuno
 email: #your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  NFDI4Immuno aims to build an open and FAIR infrastructure for research data management. Our focus is on immunology, in particular imaging, cytometry and sequence data describing the adaptive immune receptor repertoire (AIRR-Seq).
+  NFDI4Immuno aims to build an open and FAIR infrastructure for research data management.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.nfdi4immuno.de" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: #jekyllrb
-github_username:  #jekyll
+github_username: NFDI4Immuno
 
 # Header Option
 header: large
 
 # Build settings
-theme: minima
-# plugins:
-#   - jekyll-feed
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-data
 
 navigation:
   - 
@@ -46,9 +47,6 @@ navigation:
   -
     name: Work programme
     link: /work/
-  # -
-  #   name: Survey
-  #   link: https://survey.nfdi4immuno.de/851183
   -
     name: News
     link: /news/
@@ -56,9 +54,8 @@ navigation:
     name: Documents
     link: /documents/
   -
-    name: Member area
-    link: https://hub.dkfz.de/f/2435884
-#    #/members-only/
+    name: Nextcloud
+    link: https://nextcloud.nfdi4immuno.de
 
 defaults:
   -
@@ -72,9 +69,6 @@ defaults:
       path: "consortium" # an empty string here means all files in the project
     values:
       image: "/assets/img/portrait_placeholder.png"
-
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
