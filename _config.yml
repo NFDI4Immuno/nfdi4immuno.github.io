@@ -31,11 +31,16 @@ github_username: NFDI4Immuno
 header: large
 
 # Build settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"
-plugins:
-  - jekyll-feed
-  - jekyll-data
+theme: minima
+# plugins:
+#   - jekyll-feed
+
+## Preparation for new theme
+#theme: minimal-mistakes-jekyll
+#minimal_mistakes_skin: "default"
+#plugins:
+#  - jekyll-feed
+#  - jekyll-data
 
 navigation:
   - 
